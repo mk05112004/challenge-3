@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1 Welcome to kawther
+  form(action='/addTask', method='post')
+    input(type='text', name='task', placeholder='Enter a new task')
+    button(type='submit') Add Task
+
+  h2 my tasks
+  ul
+    each task in tasks
+      li
+        input(type='checkbox' name='completed')
+        span= task.description
