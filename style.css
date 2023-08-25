@@ -1,21 +1,35 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 20px;
-  background-color: pink;
+    font-family: Arial, sans-serif;
+    background-color: #f414d6;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .completed-task {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  .task-form {
+    display: inline-block;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .mt-4 {
+    margin-top: 1rem;
+  }
+  
+  .mr-2 {
+    margin-right: 0.5rem;
 
-}
-form {
-  margin-bottom: 20px;
- 
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  color:aqua;
-}
-
-li {
-  margin-bottom: 10px;
-}
+  }
+  
